@@ -19,6 +19,7 @@ public class Main {
 		Pacman pacman = new Pacman();
 		frame.add(pacman);
 		frame.pack();
+		pacman.requestFocus();
 		frame.setVisible(true);
 		
 
